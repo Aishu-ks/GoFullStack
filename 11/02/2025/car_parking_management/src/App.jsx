@@ -9,10 +9,10 @@ function App()
 <>
 
 <h1><marquee>Car Parking Management</marquee></h1>
-<Greet/>
-<Car_create/>
+{/* <Greet/> */}
+{/* <Car_create/> */}
 <Car_view/>
-<Car_list/>
+{/* <Car_list/> */}
 
 
 </>

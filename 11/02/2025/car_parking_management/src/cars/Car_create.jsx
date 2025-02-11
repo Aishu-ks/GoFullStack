@@ -1,13 +1,15 @@
+import Greet from "../header/Greet";
+
 function Car_create()
 {
     return(
         <>
-        
+        <Greet/>
     <h3> <a href="cars_list.html" className="btn btn-light">Go Back</a>Add Car</h3>
     <div className="container">
     
       <div className="form-group mb-3">
-            <label for="number" className="form-label">Car Number:</label>
+            <label htmlFor="number" className="form-label">Car Number:</label>
             <input type="text" className="form-control" id="number" placeholder="please enter car number"/>
         </div>
         <div className="form-group mb-3">
