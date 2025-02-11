@@ -30,7 +30,7 @@ function Car_list()
               <td>KA09asc3211</td>
               <td>Beatle</td>
               <td>hatchback</td>
-              <td><a className="btn btn-success" href="car_view.html?car2">view</a></td>
+              <td><a className="btn btn-success" href="/car/view?car2">view</a></td>
             </tr>
         </tbody>
         </table>
