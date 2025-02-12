@@ -23,14 +23,14 @@ function Car_list()
               <td>KA09asc1231</td>
               <td>Zen</td>
               <td>smallcar</td>
-              <td><a className="btn btn-success" href="car_view.html?id=car1">view</a></td>
+              <td><a className="btn btn-success" href="/view">view</a></td>
             </tr>
             <tr>
               <th scope="row">car2</th>
               <td>KA09asc3211</td>
               <td>Beatle</td>
               <td>hatchback</td>
-              <td><a className="btn btn-success" href="/car/view?car2">view</a></td>
+              <td><a className="btn btn-success" href="/view">view</a></td>
             </tr>
         </tbody>
         </table>
