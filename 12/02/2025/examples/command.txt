@@ -47,3 +47,17 @@ to install gin-gonic framework
 then
     go get github.com/gin-gonic/gin@latest
     go.sum appears
+
+go run main.go
+if pop up appears, fine
+    else\
+go get github.com/gin-contrib/cors
+
+once again, go run main.go
+
+Open postman/Thunderclient,
+    newtab->POST->enter link
+    Under BOdy,
+        raw->json
+    Type the requirements inside curly braces with commas separating each element.
+SEND
