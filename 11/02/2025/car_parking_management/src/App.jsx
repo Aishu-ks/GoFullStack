@@ -10,10 +10,11 @@ function App()
 <>
 <BrowserRouter>
 <Routes>
-  <Route path="" element={<Car_list/>}/>
-  <Route path="/car/list" element={<Car_list/>}/>
-  <Route path="/car/create" element={<Car_create/>}/>
-  <Route path="/car/view" element={<Car_view/>}/>
+            <Route path="" element={<Car_list/>}/>
+            <Route path="/list" element={<Car_list/>}/>
+            <Route path="/create" element={<Car_create/>}/>
+            <Route path="/view" element={<Car_view/>}/>
+
   </Routes></BrowserRouter>
 
 

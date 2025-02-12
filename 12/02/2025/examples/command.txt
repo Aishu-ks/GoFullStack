@@ -1,0 +1,19 @@
+check if go is installed or not
+    go version
+running a go file
+    go run file.go
+all go sourse files extention should be .go
+
+basic syntax
+
+Package packagename(main)
+
+import "fmt"  ;->single import
+
+import (
+    "fmt"
+                    ->multi import
+
+)
+
+main()
