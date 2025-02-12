@@ -16,4 +16,34 @@ import (
 
 )
 
-main()
+func main(){
+
+}
+
+creating go project
+run: go mod init <project name>
+    =>creates mod file which handles the dependancies
+to install any external libraries we use go install command
+
+
+Modify main.go
+
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func main(){
+	r:=gin.Default()
+	r.run()
+}
+
+
+
+to install gin-gonic framework
+    go install github.com/gin-gonic/gin@latest
+    go.mod is modified
+then
+    go get github.com/gin-gonic/gin@latest
+    go.sum appears
