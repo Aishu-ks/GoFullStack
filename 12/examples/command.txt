@@ -59,5 +59,6 @@ Open postman/Thunderclient,
     newtab->POST->enter link
     Under BOdy,
         raw->json
-    Type the requirements inside curly braces with commas separating each element.
+    Type the requirements inside curly braces in json format
+    
 SEND
